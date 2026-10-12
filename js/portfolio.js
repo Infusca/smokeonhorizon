@@ -42,7 +42,7 @@ function openQuestionGame() {
     const left = Math.round((window.screen.width - width) / 2);
     const top = Math.round((window.screen.height - height) / 2);
     window.open(
-        '/programming/question game/question-game.html',
+        new URL('../programming/question game/question-game.html', document.currentScript?.src || document.baseURI).href,
         'Question Game',
         `width=${width},height=${height},left=${left},top=${top}`
     );
