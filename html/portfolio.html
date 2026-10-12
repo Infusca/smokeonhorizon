@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Smoke on Horizon</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+    <nav class="site-nav">
+        <a class="brand" href="/index.html">
+            <img src="/assets/images/logo_512.png" alt="">
+            <span>Smoke on Horizon</span>
+        </a>
+        <details id="site-nav" open>
+            <summary>Menu</summary>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/html/wood.html">Wood Turning</a></li>
+                <li><a href="/html/portfolio.html" aria-current="page">Portfolio</a></li>
+                <li><a href="/html/fwhs.html">Fire Woman Hot Sauce</a></li>
+                <li><a href="/html/metal.html">Metal Detecting</a></li>
+                <li><a href="/html/music.html">Not Enough Cats</a></li>
+                <li><a href="/html/photo.html">Photography</a></li>
+                <li><a href="/html/blog.html">Blog</a></li>
+            </ul>
+        </details>
+    </nav>
+
+    <main>
+        <h1>Portfolio</h1>
+
+        <section class="intro">
+            <p>I was introduced to coding in high school. Since then I've dabbled in it on and off, designing websites, making games, taking tutorial after tutorial. Currently I am interested in competing in different game creation contests and would love to find other like minded people to embark on the project with.</p>
+            <p>Below are some of my projects, some followed from tutorial, others of my own design.</p>
+        </section>
+
+        <div id="portfolioSearchBar">
+            <label for="input" class="visually-hidden">Search projects</label>
+            <input type="search" id="input" placeholder="Search projects...">
+        </div>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <img src="/assets/images/coding/budgetapp_thumbnail.png" alt="Screenshot of the budget app">
+                    <h3>Budget app</h3>
+                    <p>Written in JavaScript</p>
+                    <a class="project-link" href="/programming/budget app/budget-app.html" target="_blank" rel="noopener">Enter</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="/assets/images/coding/minesweeper_thumbnail.png" alt="Screenshot of Minesweeper">
+                    <h3>Minesweeper</h3>
+                    <p>Written in JavaScript</p>
+                    <a class="project-link" href="/programming/minesweeper/minesweeper.html" target="_blank" rel="noopener">Enter</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="/assets/images/coding/piggame_thumbnail.png" alt="Screenshot of the pig dice game">
+                    <h3>Pig game</h3>
+                    <p>Written in JavaScript</p>
+                    <a class="project-link" href="/programming/pig game/pig-game.html" target="_blank" rel="noopener">Enter</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="/assets/images/coding/questiongame_thumbnail.png" alt="Screenshot of the simple question game">
+                    <h3>Simple question game</h3>
+                    <p>Written in JavaScript</p>
+                    <button class="project-link" type="button" onclick="openQuestionGame()">Enter</button>
+                </div>
+
+                <div class="project-card">
+                    <img src="/assets/images/coding/digitall_thumbnail.png" alt="Screenshot of Dig It All">
+                    <h3>Dig It All [Game]</h3>
+                    <p>Written in Python</p>
+                    <p>You will need to download an executable file in order to be able to play.</p>
+                    <a class="project-link" href="digItAll_v2.exe" download>Download</a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <div id="modal">
+        <img id="modalTarget" src="" alt="">
+    </div>
+
+    <footer class="site-footer">
+        <img class="footer-logo" src="/assets/images/logo_512.png" alt="">
+        <ul class="footer-menu">
+            <li><a href="/html/about.html">about</a></li>
+            <li><a href="/html/contact.html">contact</a></li>
+            <li><a href="/html/explore.html">explore</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#" aria-label="Facebook"><img src="/assets/images/facebook.png" alt=""></a>
+            <a href="#" aria-label="Instagram"><img src="/assets/images/instagram.png" alt=""></a>
+            <a href="#" aria-label="YouTube"><img src="/assets/images/youtube.png" alt=""></a>
+            <a href="#" aria-label="LinkedIn"><img src="/assets/images/linkedin.png" alt=""></a>
+        </div>
+        <p class="copyright">N. A. H. &copy; 2026</p>
+    </footer>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/portfolio.js"></script>
+</body>
+</html>

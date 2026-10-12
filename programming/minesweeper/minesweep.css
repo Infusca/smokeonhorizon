@@ -1,0 +1,110 @@
+/* TABLE */
+
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 21px;
+  padding: 2px;
+  font-size: 15px;
+  text-align: center;
+  visibility: hidden;
+}
+
+.border{
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.cell{
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  float: left;
+}
+
+/**** EASY ****/
+
+.border, .easy{
+  width: 135px;
+  height: 135px;
+}
+
+.row{
+  width: 138px;
+}
+
+.col
+
+/*
+.col, .easy{
+  width: 25px;
+  height: 25px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  float: left;
+}
+
+.table, .easy{
+  font-family: verdana;
+  background-color: grey;
+  width: 135px;
+  height: 127px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.row, .easy{
+  width: 137px;
+  height: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/**** MEDIUM ****/
+/*
+#medium_game{
+  display: none;
+}
+
+.medium, .col{
+  width: 25px;
+  height: 25px;
+}
+
+.medium, .table{
+  width: 300px;
+  height: 270px;
+  float: left;
+  background-color: grey;
+}
+
+.medium{
+  width: 270px;
+  height: 25px;
+}
+
+/**** HARD ****/
+/*
+.col.hard{
+  width: 25px;
+  height: 25px;
+}
+
+.table.hard{
+  width: 270px;
+  height: 270px;
+  float: left;
+}
+
+.row.hard{
+  width: 270px;
+  height: 25px;
+}
